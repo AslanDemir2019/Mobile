@@ -5,6 +5,9 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class IOS_2_AssessmentMemberLoginPage extends BasePage{
 
+    @iOSXCUITFindBy(accessibility = "Allow")
+    public IOSElement Allow;
+
     @iOSXCUITFindBy(accessibility = "Sign In")
     public IOSElement Sign_In;
 

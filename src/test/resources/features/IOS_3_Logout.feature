@@ -8,7 +8,7 @@ Feature: Calibrate IOS User Logout Page Feature
     And user has navigated back to User Profile
     Then  User should be able to see logout button
 
-  @MEQA-15
+  @MEQA-15 @Smoke
   Scenario: AC.02 Logout & Log Back In
     Given user is on Ios App Dashboard
     And user wants to logout after going through information pages

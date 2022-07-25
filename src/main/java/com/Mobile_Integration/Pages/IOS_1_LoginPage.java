@@ -7,6 +7,9 @@ public class IOS_1_LoginPage extends BasePage{
     @iOSXCUITFindBy(accessibility = "Sign In")
     public IOSElement Sign_In;
 
+    @iOSXCUITFindBy(accessibility = "Allow")
+    public IOSElement Allow;
+
     @iOSXCUITFindBy(xpath = "(//XCUIElementTypeOther[@name=\"Your email\"])[2]")
     public IOSElement SignInEmail;
 

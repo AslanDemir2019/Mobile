@@ -15,6 +15,8 @@ public class IOS_3_LogoutPageStepDefs {
     @Given("Ios user is on the App Dashboard Page")
     public void ios_user_is_on_the_app_dashboard_page() {
 
+        MobileUtils.waitFor(9000);
+        MobileUtils.tapByElement(Ios_3.Allow);
         Ios_3.SignInEmail.sendKeys(ConfigurationReader.getProperty("email"));
         MobileUtils.waitFor(3000);
         Ios_3.SignInPassword.sendKeys(ConfigurationReader.getProperty("password"));
@@ -58,6 +60,7 @@ public class IOS_3_LogoutPageStepDefs {
         Ios_3.LogoutPopUp.click();
 
         Driver.closeDriver();
+        MobileUtils.waitFor(9000);
     }
 
     ///////////// AC.02 ////////////////////////
@@ -66,6 +69,7 @@ public class IOS_3_LogoutPageStepDefs {
     @Given("user is on Ios App Dashboard")
     public void user_is_on_ios_app_dashboard() {
         MobileUtils.waitFor(9000);
+        MobileUtils.tapByElement(Ios_3.Allow);
         Ios_3.SignInEmail.sendKeys(ConfigurationReader.getProperty("email"));
         MobileUtils.waitFor(3000);
         Ios_3.SignInPassword.sendKeys(ConfigurationReader.getProperty("password"));
@@ -103,6 +107,7 @@ public class IOS_3_LogoutPageStepDefs {
     public void logs_back_in() {
         MobileUtils.waitFor(9000);
         Driver.getDriver().launchApp();
+        MobileUtils.tapByElement(Ios_3.Allow);
         MobileUtils.waitFor(9000);
     }
     @Then("email and password fields should be empty")

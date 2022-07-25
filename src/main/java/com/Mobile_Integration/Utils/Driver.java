@@ -71,9 +71,10 @@ public class Driver {
 
                         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS");
                         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "15.5");
-                      //  desiredCapabilities.setCapability(MobileCapabilityType.APP, "/Users/ademir/IdeaProjects/Mobile/src/main/resources/Calibrate.xcodeproj.app");
+                      //  desiredCapabilities.setCapability(MobileCapabilityType.APP, "/Users/ademir/Library/Developer/Xcode/DerivedData/Calibrate-byerqsgztofpendsbcoetipvrhxc/Build/Products/Debug-iphonesimulator/reset.app ");
                         desiredCapabilities.setCapability(MobileCapabilityType.APP, absolutePath);
-                        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 13 Pro");
+                        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 11");
+                        //desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 13 Pro");
                         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
                         desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 20000);
                         desiredCapabilities.setCapability(IOSMobileCapabilityType.WDA_STARTUP_RETRIES, "5");

@@ -17,6 +17,7 @@ public class IOS_1_LoginPage_StepDefs {
     @Given("IOS user is on the dashboard")
     public void ios_user_is_on_the_dashboard() {
         MobileUtils.waitFor(5000);
+        MobileUtils.tapByElement(ios1LoginPage.Allow);
     }
 
     @When("User wants to register")
@@ -61,6 +62,7 @@ public class IOS_1_LoginPage_StepDefs {
     @Given("user is on login page")
     public void user_is_on_login_page() {
         MobileUtils.waitFor(5000);
+        MobileUtils.tapByElement(ios1LoginPage.Allow);
     }
 
     @When("email is not provided")
@@ -86,6 +88,7 @@ public class IOS_1_LoginPage_StepDefs {
     @Given("IOS user is on login page")
     public void ios_user_is_on_login_page() {
         MobileUtils.waitFor(5000);
+        MobileUtils.tapByElement(ios1LoginPage.Allow);
     }
 
     @When("email is provided wrong")
@@ -112,6 +115,7 @@ public class IOS_1_LoginPage_StepDefs {
     @Given("user wants to login page")
     public void user_wants_to_login_page() {
         MobileUtils.waitFor(5000);
+        MobileUtils.tapByElement(ios1LoginPage.Allow);
     }
 
     @When("password is not provided")
@@ -137,6 +141,7 @@ public class IOS_1_LoginPage_StepDefs {
     @Given("Ios user is on login page Dashboard")
     public void ios_user_is_on_login_page_dashboard() {
         MobileUtils.waitFor(5000);
+        MobileUtils.tapByElement(ios1LoginPage.Allow);
     }
     @When("password provided is wrong")
     public void password_provided_is_wrong() {
