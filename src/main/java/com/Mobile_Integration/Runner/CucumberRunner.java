@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         glue = "com/Mobile_Integration/StepDefs",
         features = "src/test/resources/features",
         dryRun=false,
-        tags="@MEQA-18",
+        tags="@MEQA-16",
         publish=true
 )
 

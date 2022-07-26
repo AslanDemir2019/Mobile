@@ -1,0 +1,8 @@
+# Default ignored files
+/src/main/resources/Aslan.app/
+*apk
+*app
+.idea/
+target
+/shelf/
+/workspace.xml
