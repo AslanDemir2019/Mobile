@@ -76,6 +76,7 @@ public class Driver {
                         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 11");
                         //desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 13 Pro");
                         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+//                        desiredCapabilities.setCapability("autoDismissAlerts", true);
                         desiredCapabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 20000);
                         desiredCapabilities.setCapability(IOSMobileCapabilityType.WDA_STARTUP_RETRIES, "5");
                         try {

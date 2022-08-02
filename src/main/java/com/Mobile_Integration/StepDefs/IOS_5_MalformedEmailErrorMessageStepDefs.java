@@ -16,7 +16,7 @@ public class IOS_5_MalformedEmailErrorMessageStepDefs {
     @Given("IOS user is on the Sign In page")
     public void ios_user_is_on_the_sign_in_page() {
         MobileUtils.waitFor(9000);
-        MobileUtils.tapByElement(ios_5.Allow);
+       // MobileUtils.tapByElement(ios_5.Allow);
         MobileUtils.waitFor(3000);
     }
     @When("they have entered an {string} address")

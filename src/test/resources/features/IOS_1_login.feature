@@ -7,28 +7,28 @@ Feature: Calibrate IOS User Login Page Feature
     Then IOS User should see register pages one after the other
 
   @MEQA-12
-  Scenario: AC.02 IOS App
+  Scenario: AC.02 IOS AppNo Email Provided
     Given user is on login page
     When email is not provided
     Then Dashboard should not be displayed
 
 
   @MEQA-12
-  Scenario: AC.03 IOS App
+  Scenario: AC.03 IOS App Wrong Email Provided
   Given IOS user is on login page
   When email is provided wrong
   Then Dashboard Page should not be displayed
 
 
   @MEQA-12
-  Scenario: AC.04 IOS App
+  Scenario: AC.04 IOS App No Password Provided
   Given user wants to login page
   When password is not provided
   Then Dashboard shouldn't be displayed
 
 
   @MEQA-12
-  Scenario: AC.05 IOS App
+  Scenario: AC.05 IOS App Wrong Password Provided
   Given Ios user is on login page Dashboard
   When password provided is wrong
   Then Dashboard should not be viewed

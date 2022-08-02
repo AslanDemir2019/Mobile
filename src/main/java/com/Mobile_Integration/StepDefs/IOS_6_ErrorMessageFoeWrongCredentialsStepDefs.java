@@ -17,7 +17,7 @@ public class IOS_6_ErrorMessageFoeWrongCredentialsStepDefs {
     @Given("Ios User is on the Login page")
     public void ios_user_is_on_the_login_page() {
         MobileUtils.waitFor(9000);
-        MobileUtils.tapByElement(ios_6.Allow);
+       // MobileUtils.tapByElement(ios_6.Allow);
         MobileUtils.waitFor(3000);
     }
     @When("ios user provides an invalid email and valid password")
