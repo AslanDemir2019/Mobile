@@ -26,8 +26,8 @@ public class IOS_8_HaveYouReceivedWelcomeKit_NOPage extends BasePage{
     @iOSXCUITFindBy(accessibility = "welcome-kit-received-button-no")
     public IOSElement WelcomeKitReceivedButtonNo;
 
-    @iOSXCUITFindBy(accessibility = "Your program hasn't started yet")
-    public IOSElement YourProgramHasNotStartedYet;
+    @iOSXCUITFindBy(accessibility = "Today Today")
+    public IOSElement Today;
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Skip\"]")
     public IOSElement Skip_1;

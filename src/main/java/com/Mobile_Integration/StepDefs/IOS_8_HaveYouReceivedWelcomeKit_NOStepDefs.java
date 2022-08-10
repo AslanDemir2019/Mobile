@@ -84,7 +84,13 @@ public class IOS_8_HaveYouReceivedWelcomeKit_NOStepDefs {
     }
     @Then("Your program hasn't started yet should be displayed")
     public void yourProgramHasnTStartedYetShouldBeDisplayed() {
-        Assert.assertTrue("Your program has not started yet is not displayed", ios_8.YourProgramHasNotStartedYet.isDisplayed());
+        Assert.assertTrue("Your program has not started yet is not displayed", ios_8.Today.isDisplayed());
+        MobileUtils.waitFor(5000);
+        ios_8.Profile.click();
+        MobileUtils.waitFor(5000);
+        ios_8.Logout.click();
+        MobileUtils.waitFor(5000);
+        ios_8.LogoutPopUp.click();
         MobileUtils.waitFor(5000);
         Driver.closeDriver();
     }
