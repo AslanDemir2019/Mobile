@@ -1,6 +1,6 @@
 Feature: Calibrate IOS User Logout Page Feature
 
-  @MEQA-15
+  @MEQA-15 @Regression
   Scenario: AC.01 Logout Button
     Given  Ios user is on the App Dashboard Page
     And user has already gone through providing information pages

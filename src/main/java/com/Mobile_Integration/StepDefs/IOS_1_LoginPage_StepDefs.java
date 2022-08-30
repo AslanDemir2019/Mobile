@@ -41,8 +41,8 @@ public class IOS_1_LoginPage_StepDefs {
         ios1LoginPage.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios1LoginPage.Skip_1.click();
-        MobileUtils.waitFor(5000);
-        ios1LoginPage.Skip_1.click();
+//        MobileUtils.waitFor(5000);
+//        ios1LoginPage.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios1LoginPage.GetStarted_1.click();
         MobileUtils.waitFor(5000);

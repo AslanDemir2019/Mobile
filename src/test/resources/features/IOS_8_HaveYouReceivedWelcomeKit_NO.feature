@@ -1,6 +1,6 @@
 Feature: Calibrate IOS User Have You Received Welcome Kit Feature
 
-  @MEQA-56
+  @MEQA-56 @Regression
   Scenario: AC.01 Option Yes and complete flow
   Given ios user logs into the App
   And clicks on Get Started button
@@ -8,7 +8,7 @@ Feature: Calibrate IOS User Have You Received Welcome Kit Feature
   Then user should be able to complete the Orientation Flow
 
 
-  @MEQA-56
+  @MEQA-56 @Regression
   Scenario: AC.02 Option No
     Given IOS user has loged in
     And clicked on The Get Started Button

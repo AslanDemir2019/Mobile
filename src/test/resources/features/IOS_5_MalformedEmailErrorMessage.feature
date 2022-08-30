@@ -1,6 +1,6 @@
 Feature: Calibrate IOS User Malformed Email Error Message Feature
 
-  @MEQA-18
+  @MEQA-18 @Regression
   Scenario Outline: AC.01  Invalid Email Format -
     Given IOS user is on the Sign In page
     When they have entered an "< invalidEmail >" address

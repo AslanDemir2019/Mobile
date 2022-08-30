@@ -117,8 +117,8 @@ public class IOS_4_MissingEmail_or_PasswordPageStepDefs {
         MobileUtils.waitFor(5000);
         ios_4.Skip_1.click();
         MobileUtils.waitFor(5000);
-        ios_4.Skip_1.click();
-        MobileUtils.waitFor(5000);
+//        ios_4.Skip_1.click();
+//        MobileUtils.waitFor(5000);
         ios_4.GetStarted_1.click();
         MobileUtils.waitFor(5000);
         ios_4.Profile.click();

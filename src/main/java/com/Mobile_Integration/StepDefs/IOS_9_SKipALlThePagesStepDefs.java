@@ -38,8 +38,8 @@ public class IOS_9_SKipALlThePagesStepDefs {
         ios_9.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_9.Skip_1.click();
-        MobileUtils.waitFor(5000);
-        ios_9.Skip_1.click();
+//        MobileUtils.waitFor(5000);
+//        ios_9.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_9.GetStarted_1.click();
         MobileUtils.waitFor(5000);
@@ -79,8 +79,8 @@ public class IOS_9_SKipALlThePagesStepDefs {
         ios_9.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_9.Skip_1.click();
-        MobileUtils.waitFor(5000);
-        ios_9.Skip_1.click();
+//        MobileUtils.waitFor(5000);
+//        ios_9.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_9.GetStarted_1.click();
         MobileUtils.waitFor(5000);
@@ -122,8 +122,8 @@ public class IOS_9_SKipALlThePagesStepDefs {
         ios_9.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_9.Skip_1.click();
-        MobileUtils.waitFor(5000);
-        ios_9.Skip_1.click();
+//        MobileUtils.waitFor(5000);
+//        ios_9.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_9.GetStarted_1.click();
         MobileUtils.waitFor(5000);
