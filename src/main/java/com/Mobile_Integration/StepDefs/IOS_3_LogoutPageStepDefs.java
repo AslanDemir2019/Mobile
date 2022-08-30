@@ -34,8 +34,8 @@ public class IOS_3_LogoutPageStepDefs {
         Ios_3.Skip_1.click();
         MobileUtils.waitFor(5000);
         Ios_3.Skip_1.click();
-        MobileUtils.waitFor(5000);
-        Ios_3.Skip_1.click();
+//        MobileUtils.waitFor(5000);
+//        Ios_3.Skip_1.click();
         MobileUtils.waitFor(5000);
         Ios_3.GetStarted_1.click();
         MobileUtils.waitFor(5000);

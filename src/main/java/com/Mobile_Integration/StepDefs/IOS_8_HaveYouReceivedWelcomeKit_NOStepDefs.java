@@ -43,8 +43,8 @@ public class IOS_8_HaveYouReceivedWelcomeKit_NOStepDefs {
         ios_8.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_8.Skip_1.click();
-        MobileUtils.waitFor(5000);
-        ios_8.Skip_1.click();
+//        MobileUtils.waitFor(5000);
+//        ios_8.Skip_1.click();
         MobileUtils.waitFor(5000);
         ios_8.GetStarted_1.click();
         MobileUtils.waitFor(5000);
